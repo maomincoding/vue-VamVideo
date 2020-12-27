@@ -1,25 +1,3 @@
-# vue-VamVideo
-> Vue.js Custom video components
-
-## File directory analysis
-
-### VamVideo
-Custom video components.
-### index.vue
-Import component page.
-### img
-Store sample poster pictures.
-
-## Using documents
-1. Introducing components
-2. configuration parameter
-
-- `properties`: Video properties.
-
-- `videoStyle`: Video style.
-
-These two parameters need to be set separately.
-```html
 <template>
   <div id="app">
     <vam-Video :properties="videoOption.properties" :videoStyle="videoOption.videoStyle"></vam-Video>
@@ -53,5 +31,3 @@ export default {
   },
 };
 </script>
-
-```
